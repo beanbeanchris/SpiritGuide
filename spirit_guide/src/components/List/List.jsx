@@ -4,19 +4,11 @@ import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import useStyles from './styles';
 
 
-const List = () => {
+const List = ({ places }) => {
     const classes = useStyles();
     const [type, setType] = useState('Non-denominational'); // This is a hook. Second element is function  that write to first element
     const [rating, setRating] = useState(''); 
-    const places = [
-        {name: 'Church 1'},
-        {name: 'Church 2'},
-        {name: 'Church 3'},
-        {name: 'Church 4'},
-        {name: 'Church 5'},
-        {name: 'Church 6'}
 
-    ];
     return (
         <div className={classes.container}>
             <Typography variant="h4" >Nearby Churches</Typography>
