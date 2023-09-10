@@ -15,3 +15,12 @@ Why Our App Stands Out:
 ✨ Seamless User Experience: Intuitive interface and user-friendly design make your spiritual journey effortless.
 
 Join us on this transformative journey of merging technology and spirituality. Explore, connect, and find your spiritual home with our one-of-a-kind church exploration app.
+
+# TODO (09/09/2023 17:17)
+Change API from travel advisor to google places.
+Fix location markers. (Not showing markers on map)
+
+
+# Image of current app state. (09/09/2023 17:17)
+
+![Model](https://github.com/beanbeanchris/SpiritGuide/blob/main/images/app_2023_9_9_1717.png)
